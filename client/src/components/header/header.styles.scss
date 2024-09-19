@@ -1,0 +1,36 @@
+.navbar-light{
+  padding: 0.5rem 3rem !important;
+  border-bottom: 5px solid #0275d8;
+  .navbar-brand{
+    img{
+      height: 50px;
+      width: 200px;
+    }
+  }
+  .navbar-nav{
+    .nav-link {
+      color: rgba(0, 0, 0, 1) !important;
+      font-weight: 400;
+      &:hover{
+        color: rgb(19, 189, 204) !important;
+      }
+      }
+    
+    } 
+  } 
+.bold-conf{
+  .dropdown-toggle{
+    font-weight: bold !important;
+  }
+}
+  @media only screen and (max-width: 768px) {
+    .navbar-light{
+      padding: 0.5rem 1rem !important;      
+      .navbar-brand{
+        img{
+          height: 30px;
+          width: 150px;
+        }
+      }
+    }
+  }

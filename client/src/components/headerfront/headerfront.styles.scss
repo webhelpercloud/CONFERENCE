@@ -1,0 +1,56 @@
+.fronthome-wrapper{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.fronthome{
+  min-height: 100vh;
+  background-color: rgba(0,0,0,0.8);  
+  padding-top: 5rem;  
+  .frontCol{
+    text-align: center;
+    img{
+      height: 100px;
+      width: 400px;
+    }    
+    .frontbtn{
+      width: 300px;
+      height: 80px;
+      margin:1rem;
+      border-radius: 5px;
+    }
+  }
+}
+
+
+.countdown-timer{
+  text-align: center;
+  font-size: 90px;
+  :first-child{
+    color: red;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .fronthome-wrapper{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .fronthome{
+    .frontCol{
+      img{
+        height: 50px;
+        width: 250px;
+      }
+      .frontbtn{
+        width: 70vw;
+        height: 80px;
+        .h3{
+          font-size: 20px;
+        }
+      }
+    }
+  }
+  
+}

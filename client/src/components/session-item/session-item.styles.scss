@@ -1,0 +1,25 @@
+.accordion > .card {
+  margin-top: 0.3rem;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.125) !important;
+}
+.session-item{
+  color: black;
+  margin: 2rem 0;
+  .session-name{
+    color: #0275d8;
+    margin-bottom: 1rem;
+  }
+  .topic{
+    font-weight: bold;
+    margin: 0.5rem 0;
+  }
+  .participant{
+    margin: 1rem 0;
+    padding:1rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    max-width: 550px;
+  }
+  .badge{
+    font-weight: 500 !important;
+  }
+}

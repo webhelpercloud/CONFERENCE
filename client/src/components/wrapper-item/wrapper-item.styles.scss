@@ -1,0 +1,29 @@
+.wrapItem{
+  text-align: center;
+  margin:1rem;
+  max-height: 220px; 
+  .borderr{
+    border:1px solid black;
+    border-radius: 10px;
+    padding:1rem;
+    img{
+      height: 150px;
+      width: 150px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .wrapItem{
+
+    max-height: 220px; 
+    .borderr{
+      img{
+        height: 100px;
+        width: 100px;
+      }
+    }
+  }
+  
+
+}

@@ -1,0 +1,30 @@
+{
+  "name": "icnhbas-server",
+  "version": "1.0.0",
+  "description": "express api",
+  "main": "index.js",
+  "scripts": {
+    "client-install": "npm install --prefix react",
+    "start": "nodemon index.js",
+    "server": "nodemon index.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client   && npm run build --prefix client"
+  },
+  "author": "Yaito",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "html-pdf": "^2.2.0",
+    "joi": "^17.4.0",
+    "moment": "^2.29.1",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.5.0",
+    "prerender-node": "^3.2.5"
+  }
+}

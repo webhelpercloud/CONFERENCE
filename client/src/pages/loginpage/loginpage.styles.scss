@@ -1,0 +1,15 @@
+.login-page{
+  min-height: 100vh;
+}
+
+.icn-logo{
+  height: 150px;
+  width: 400px;
+}
+
+@media only screen and (max-width: 768px) {
+  .icn-logo{
+    height: 70px;
+    width: 200px;
+  }
+}

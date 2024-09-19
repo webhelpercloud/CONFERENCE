@@ -1,0 +1,46 @@
+.accommodation-page{
+  .page-con{
+    color: black;
+  }
+  .page-intro{
+    border-bottom: 1px solid rgba(0 , 0 , 0 ,0.5);
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    font-size: 20px;
+    text-align: justify;
+  }
+
+  .page-note{
+    border-bottom: 1px solid rgba(0 , 0 , 0 ,0.5);
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    font-size: 20px;
+  }  
+  .address{
+    span{font-weight: bold;}
+  }
+  .registration-fees{
+    border-bottom: 1px solid rgba(0 , 0 , 0 ,0.5);    
+    .fees-desc{
+      text-align: center;
+      font-style: italic;
+      margin: 1rem 0;
+    }
+  }
+      .bank-account{
+        .intro{
+          margin: 1rem 0;
+          font-style: italic;
+          font-weight: bold;          
+        }
+        .left-side{
+          background-color:#0275d8; ;
+          color: white;
+          text-align: center;
+        }
+        .right-side{
+          text-align: center;
+          font-weight: normal;
+        }        
+      }
+}
